@@ -10,6 +10,7 @@ ESP8266WebServer server(80);
 
 const int rly_bt1 = 5;
 const int rly_bt2 = 4;
+//these denote the gpio pins
 
 void rly_bt1_on() {
   Serial.println("rly_bt1_on");
